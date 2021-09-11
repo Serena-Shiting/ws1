@@ -1,0 +1,193 @@
+    1  passwd
+    2  $ wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv
+    3  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    4  ls
+    5  ls -latr
+    6  ls -altr
+    7  find ./ -type f -name “*.txt”
+    8  ls
+    9  vi tempfile
+   10  ls
+   11  gzip -d amazon_reviews_us_Books_v1_02.tsv.gz 
+   12  ls
+   13  wc amazon
+   14  wc amazon_reviews_us_Books_v1_02.tsv 
+   15  grep john amazon_reviews_us_Books_v1_02.tsv 
+   16  grep -i John amazon_reviews_us_Books_v1_02.tsv 
+   17  clear
+   18  grep verified amazon_reviews_us_Books_v1_02.tsv 
+   19  cut -d'   ' -f12 amazon_reviews_us_Books_v1_02.tsv
+   20  awk -F"\t" '{print $12}' amazon_reviews_us_Books_v1_02.tsv
+   21  awk -F"\t" '{print $12}' amazon_reviews_us_Books_v1_02.tsv > verified.txt
+   22  ls
+   23  cut -d'   ' -f12 amazon_reviews_us_Books_v1_02.tsv
+   24  cut -d'	' -f12 amazon_reviews_us_Books_v1_02.tsv
+   25  ls
+   26  head -n 2
+   27  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+   28  ls
+   29  grep Y verified.txt 
+   30  grep Y verified.txt > unverified.txt 
+   31  ls
+   32  wc verified.txt 
+   33  grep Y verified.txt > Yverfied.txt
+   34  grep N verified.txt  > Nverfied.txt
+   35  wc Yverfied.txt 
+   36  wc Yverfied.txt > count.txt
+   37  wc Nverfied.txt >> count.txt
+   38  cat count.txt 
+   39  nano count.txt 
+   40  history > cmds.log
+   41  vi cmds.log
+   42  emacs cmds.log
+   43  git init
+   44  git status
+   45  git add counts.txt
+   46  count.txt
+   47  git add count.txt 
+   48  git add cmds.log
+   49  git status
+   50  git commit -m"add two files
+   51  "
+   52  git commit -m"add two files"
+   53  git config --global user.email "shiting.li@sjsu.edu"
+   54  git config --global user.name "Shiting.li"
+   55  git commit -m"add two files"
+   56  git remote add origin https://github.com/Serena-Shiting/ws2.git
+   57  git branch -M main
+   58  git push -u origin main
+   59  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
+   60  git push
+   61  git log
+   62  git push origin
+   63  git push main
+   64  git branch
+   65  ~/.git-credentials
+   66  git remote set-url
+   67  git remote set-url https://github.com/Serena-Shiting/ws2.git
+   68  git remote rm origin
+   69  git remote add origin https://github.com/Serena-Shiting/ws2.git
+   70  git push origin
+   71  git push --set-upstream origin main
+   72  ls
+   73  man head
+   74  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+   75  ls
+   76  script a1.txt
+   77  less a1.txt 
+   78  vi a1.txt 
+   79  ls
+   80  git init
+   81  git add a1.txt
+   82  git commit -m"add a1"
+   83  git remote add origin https://github.com/Serena-Shiting/a1.git
+   84  git branch -M main
+   85  git push -u origin main
+   86  git log
+   87  history > cmds.log
+   88  ls
+   89  less cmds
+   90  less cmds.log 
+   91  cd ..
+   92  echo $home
+   93  ls
+   94  less instr1
+   95  cd lis
+   96  ls
+   97  echo $home
+   98  echo $HOME
+   99  `pwd`
+  100  vi ~/.bashrc
+  101  source ~/.bashrc
+  102  lll
+  103  source ~/.bashrc
+  104  lll
+  105  . source ~/.bashrc
+  106  .source ~/.bashrc
+  107  vi ~/.bashrc
+  108  .source ~/.bashrc
+  109  source ~/.bashrc
+  110  .~/.bashrc
+  111  . ~/.bashrc
+  112  grep shopt~/.bashrc
+  113  grep shopt ~/.bashrc
+  114  echo $lis
+  115  echo $UID
+  116  echo$GROUP
+  117  echo $GROUP
+  118  $ groups
+  119  groups
+  120  crontab -1
+  121  crontab -l
+  122  crontab-l
+  123  crontab -l
+  124  mkdir temp
+  125  cd temp
+  126  mkdir 1.txt
+  127  chmod man
+  128  chmod --help
+  129  chomd au-x temp
+  130  chmod au-x temp
+  131  cd..
+  132  cd ..
+  133  chmod au-x temp
+  134  ls
+  135  cd temp
+  136  ls -l
+  137  chmod au-rwx temp
+  138  cd temp
+  139  mkdir temp2
+  140  cd temp2
+  141  cd //
+  142  cd ..
+  143  cd..
+  144  cd ..
+  145  cd ~
+  146  mv temp2
+  147  mv --help
+  148  mv temp2 temp1
+  149  ls
+  150  cp 1.txt temp1
+  151  cp a1.txt temp1
+  152  cd temp1
+  153  ls
+  154  cd ~
+  155  cp temp temp1
+  156  mkdir temp3
+  157  cp temp3 temp2
+  158  cp -R temp3/*temp1
+  159  cp -R temp3/* temp1
+  160  $ echo $HOME
+  161  echo $HOME
+  162  echo $UID
+  163  groups
+  164  mkdir temp
+  165  chmod au-x temp
+  166  cd temp
+  167  cd  /proc/
+  168  ls
+  169  less meminfo
+  170  less cpuinfo
+  171  cd~
+  172  cd ~
+  173  script a1.txt
+  174  less a1.txt
+  175  history > cmds.log
+  176  less cmds.log
+  177  ls
+  178  git init
+  179  add cmds.log
+  180  git add cmds.log
+  181  commit m-"command history"
+  182  git commit -m"command history"
+  183  git remote add origin https://github.com/Serena-Shiting/ws1.git
+  184  git branch -M main
+  185  git push -u origin main
+  186  git checkout master
+  187  git branch
+  188  git push
+  189  mkdir ws1
+  190  cd ws1
+  191  git init
+  192  git add cmds.log
+  193  history > cmds.log
